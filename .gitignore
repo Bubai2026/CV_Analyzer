@@ -1,0 +1,28 @@
+# --- Sensitive Data ---
+.env
+.env.local
+.env.secret
+secrets.toml
+
+# --- Python & Environments ---
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Project Specific Data ---
+# We ignore the uploaded resumes to protect privacy
+data/sample_resumes/*
+!data/sample_resumes/.gitkeep
+
+# --- IDE & System Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs & Temp ---
+*.log
+tmp/
